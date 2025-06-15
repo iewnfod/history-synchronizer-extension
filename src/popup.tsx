@@ -19,7 +19,7 @@ function IndexPopup() {
     const [lang, _setLang] = useState<Translation>(getTrans());
 
     return (
-        <Stack sx={{m: 3, mt: 4, mb: 4}} gap={1.5} justifyContent="center" alignItems="center">
+        <Stack sx={{m: 3, mt: 4, mb: 4, minWidth: 300}} gap={1.5} justifyContent="center" alignItems="center">
             <FormControl>
                 <FormLabel>{lang.ServerAddress}</FormLabel>
                 <Input

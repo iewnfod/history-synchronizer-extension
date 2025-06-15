@@ -1,4 +1,4 @@
-import {FormLabel, Stack} from "~node_modules/@mui/joy";
+import {FormLabel, Stack} from "@mui/joy";
 import {getTrans, type Translation} from "~src/lang";
 import {useState} from "react";
 
