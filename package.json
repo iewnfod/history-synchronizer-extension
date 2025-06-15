@@ -7,9 +7,16 @@
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "dev-firefox": "plasmo dev --target=firefox/mv3",
+    "web-ext-run": "cd build/firefox-mv3-dev && web-ext run"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.1",
+    "@mui/joy": "^5.0.0-beta.52",
+    "@mui/material": "^7.1.1",
     "plasmo": "0.90.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
